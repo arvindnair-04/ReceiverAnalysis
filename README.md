@@ -1,6 +1,6 @@
 # Football Tracking Analysis: Possession and Spatial Control
 
-This project is an early prototype for analyzing football tracking data using a possession aware spatial control model. The main goal is to estimate, for a given frame, which areas of the pitch are more favorable for the team in possession to receive the ball, which areas are more strongly controlled by the defending team, and where the space is contested. The current version has **not yet been formally validated**, but based on visual inspection and football understanding, the output appears directionally reasonable in many situations. So far, the prototype has been developed and tested on **one match only**, which means the results should be treated as exploratory rather than generalizable.
+This project is an early prototype for analyzing receiver space using football tracking data. The main goal is to estimate, for a given frame, which areas of the pitch are more favorable for the team in possession to receive the ball, which areas are more strongly controlled by the defending team, and where the space is contested. The current version has **not yet been formally validated**, but based on visual inspection and football understanding, the output appears directionally reasonable in many situations. So far, the prototype has been developed and tested on **one match only**, which means the results should be treated as exploratory rather than generalizable.
 
 The current notebook builds a blended control map by combining:
 - ball-carrier identification
