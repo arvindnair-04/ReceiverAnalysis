@@ -48,7 +48,7 @@ The current model uses directional influence fields so that player control is no
   - clear possession
   - contested
   - no possession
-- Estimate player movement based on orientation from surrounding frames
+- Estimate player movement-based orientation from surrounding frames
 - Build directional receiver and defender influence maps
 - Visualize blended control regions on a 2D pitch
 - Show:
@@ -59,9 +59,32 @@ The current model uses directional influence fields so that player control is no
   - optional orientation arrows
 - Interactively inspect frames using widgets
 
+## Example Visualizations
+
+Below are example outputs from the current prototype across different frames and pressure situations.  
+Blue regions indicate areas that are more favorable for the team in possession to receive the ball, red regions indicate stronger defensive control, and the dashed boundary represents an approximate 50/50 balance line between attacking and defending influence.
+
+<p align="center">
+  <img src="images/receiver_space1.png" width="48%" />
+  <img src="images/receiver_space2.png" width="48%" />
+</p>
+<p align="center">
+  <img src="images/receiver_space3.png" width="48%" />
+  <img src="images/receiver_space4.png" width="48%" />
+</p>
+<p align="center">
+  <img src="images/receiver_space5.png" width="60%" />
+</p>
+
 ## Repository Structure
 
 ```text
 .
 ├── receiver-space-analysis.ipynb
-└── README.md                  
+├── README.md
+└── images/
+    ├── receiver_space1.png
+    ├── receiver_space2.png
+    ├── receiver_space3.png
+    ├── receiver_space4.png
+    └── receiver_space5.png
